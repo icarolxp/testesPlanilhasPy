@@ -1,0 +1,51 @@
+id_venda,produto,cidade,quantidade,preco_unitario
+1000,Monitor,Rio de Janeiro,5,2500
+1001,Fone Bluetooth,Rio de Janeiro,1,1500
+1002,Smartphone,Curitiba,3,200
+1003,Fone Bluetooth,Curitiba,4,200
+1004,Smartphone,Curitiba,2,2500
+1005,Teclado,São Paulo,3,200
+1006,Monitor,Curitiba,5,200
+1007,Smartphone,Rio de Janeiro,5,200
+1008,Fone Bluetooth,São Paulo,4,1500
+1009,Notebook,Belo Horizonte,2,2500
+1010,Teclado,Rio de Janeiro,2,150
+1011,Monitor,Curitiba,3,200
+1012,Smartphone,Curitiba,2,1500
+1013,Teclado,Rio de Janeiro,5,1500
+1014,Teclado,São Paulo,4,2500
+1015,Monitor,São Paulo,2,2500
+1016,Notebook,Curitiba,3,2500
+1017,Monitor,São Paulo,4,200
+1018,Smartphone,Rio de Janeiro,3,200
+1019,Notebook,Belo Horizonte,4,200
+1020,Smartphone,Rio de Janeiro,2,200
+1021,Notebook,São Paulo,3,200
+1022,Monitor,São Paulo,1,200
+1023,Smartphone,São Paulo,3,200
+1024,Notebook,Curitiba,3,800
+1025,Notebook,São Paulo,3,1500
+1026,Monitor,Belo Horizonte,5,2500
+1027,Fone Bluetooth,Rio de Janeiro,2,800
+1028,Notebook,Rio de Janeiro,5,1500
+1029,Notebook,Rio de Janeiro,5,1500
+1030,Smartphone,São Paulo,3,150
+1031,Teclado,Rio de Janeiro,1,200
+1032,Fone Bluetooth,Belo Horizonte,1,1500
+1033,Notebook,Rio de Janeiro,3,2500
+1034,Smartphone,Curitiba,4,800
+1035,Smartphone,Rio de Janeiro,2,200
+1036,Notebook,Curitiba,3,1500
+1037,Smartphone,Rio de Janeiro,3,150
+1038,Teclado,Rio de Janeiro,1,800
+1039,Teclado,Rio de Janeiro,1,2500
+1040,Monitor,Belo Horizonte,5,800
+1041,Fone Bluetooth,Belo Horizonte,1,2500
+1042,Monitor,São Paulo,2,200
+1043,Notebook,Rio de Janeiro,4,800
+1044,Notebook,Rio de Janeiro,5,800
+1045,Smartphone,Rio de Janeiro,3,800
+1046,Monitor,São Paulo,1,800
+1047,Monitor,São Paulo,3,150
+1048,Monitor,Rio de Janeiro,5,2500
+1049,Teclado,Curitiba,1,2500
