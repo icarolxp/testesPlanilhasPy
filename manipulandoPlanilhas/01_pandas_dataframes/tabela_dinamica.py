@@ -19,6 +19,12 @@ for _ in range(500):
 
 df = pd.DataFrame(dados)
 
+nome_arquivo = 'vendas_geradas.csv'
+df.to_csv(nome_arquivo, index=False) # index=False serve para não salvar aquela coluna de números 0, 1, 2... na esquerda
+
+print(f"Sucesso! O arquivo '{nome_arquivo}' foi criado na pasta.")
+print("-" * 30)
+
 #2. Criando a Tabela Dinâmica
 # Index (Linhas): Vendedor
 # Columns (Colunas): Região
