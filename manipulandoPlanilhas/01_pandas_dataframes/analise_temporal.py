@@ -28,8 +28,22 @@ df['Data'] = pd.to_datetime(df['Data_String'])
 df['Mes'] = df['Data'].dt.month_name()
 df['Dia_Semana'] = df['Data'].dt.day_name()
 
+#dicionário "De -> Para"
+traducao_dias = {
+    'Monday': 'Segunda-feira',
+    'Tuesday': 'Terça-feira',
+    'Wednesday': 'Quarta-feira',
+    'Thursday': 'Quinta-feira',
+    'Friday': 'Sexta-feira',
+    'Saturday': 'Sábado',
+    'Sunday': 'Domingo'
+}
+
+# Usamos o .map() para aplicar a tradução na coluna inteira
+df['Dia_PT'] = df['Dia_Semana'].map(traducao_dias)
+
 # 3. Análise: Qual dia da semana tem mais acessos?
-acessos_por_dia = df['Dia_Semana'].value_counts()
+acessos_por_dia = df['Dia_PT'].value_counts()
 
 print("Amostra de Acessos")
 print(df.head())
